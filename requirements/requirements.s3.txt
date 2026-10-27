@@ -1,0 +1,5 @@
+# Necessario apenas para LAKE_ROOT=s3://... (ver docs/MIGRACAO_AWS_S3.md)
+-r requirements.txt
+
+# Implementacao S3 do fsspec (usa boto3/aiobotocore e a cadeia padrao de credenciais da AWS)
+s3fs==2026.9.0

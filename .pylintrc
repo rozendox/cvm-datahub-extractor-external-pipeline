@@ -1,0 +1,9 @@
+[MASTER]
+# Hook para adicionar o caminho do projeto ao sys.path
+init-hook='import sys; sys.path.extend(["src", "tests"])'
+
+# Diretórios a ignorar
+ignore=venv
+
+[FORMAT]
+max-line-length=120

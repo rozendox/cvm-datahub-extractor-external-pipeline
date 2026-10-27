@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.autopep8",
+    "ms-toolsai.jupyter",
+    "ms-python.isort",
+    "ms-python.vscode-pylance",
+    "ms-python.pylint"
+  ]
+}

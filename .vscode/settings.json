@@ -1,0 +1,53 @@
+{
+  // Editor
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  "editor.autoIndent": "full",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": "always",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "editor.defaultFormatter": "vscode.json-language-features",
+  // Explorer
+  "explorer.autoReveal": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.compactFolders": false,
+  // Files
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/desktop.ini": true
+  },
+  // Python
+  "python.experiments.enabled": true,
+  "python.defaultInterpreterPath": "./venv/bin/python",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}/src:${workspaceFolder}/tests"
+  },
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}\\src;${workspaceFolder}\\tests"
+  },
+  "terminal.integrated.env.osx": {
+    "PYTHONPATH": "${workspaceFolder}/src:${workspaceFolder}/tests"
+  },
+  "python.analysis.extraPaths": [
+    "./src",
+    "./tests"
+  ],
+  // Pylint
+  "pylint.args": [
+    "--rcfile=${workspaceFolder}/.pylintrc"
+  ]
+}

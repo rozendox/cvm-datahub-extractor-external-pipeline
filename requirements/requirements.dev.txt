@@ -1,0 +1,8 @@
+# Arquivo base de bibliotecas
+-r requirements.txt
+
+# Testes
+pytest==9.1.1
+
+# Bibliotecas de validação
+pylint==4.1.3

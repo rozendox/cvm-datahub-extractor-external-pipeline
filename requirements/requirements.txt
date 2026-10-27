@@ -1,0 +1,15 @@
+# Requisicoes HTTP ao portal de dados abertos da CVM
+requests==2.33.1
+
+# Variaveis de ambiente a partir de arquivo .env
+python-dotenv==1.2.2
+
+# Manipulacao de dados e formato Parquet
+pandas==3.0.2
+pyarrow==26.0.0
+
+# Abstracao de sistema de arquivos (disco local hoje, S3 amanha)
+fsspec==2026.9.0
+
+# Normalizacao de texto (remocao de acentos)
+Unidecode==1.4.0
